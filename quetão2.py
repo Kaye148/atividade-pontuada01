@@ -1,14 +1,14 @@
-nome = input("digite seu nome: ")
-sexo = input("informe o sexo(M/F): ")
-estado_civil = str("informe seu estado civil: ")
-if sexo == "f" and estado_civil == "casada":
-    tempo_casada = input("digite o tempode casada(em anos): ")
+
+nome = input("Digite o nome: ")
+sexo = input("Digite o sexo (M/F): ")
+estado_civil = input("Digite o estado civil: ")
+
+if sexo == 'F' and estado_civil == 'CASADA':
+    tempo_casada = input("Digite o tempo de casada (em anos): ")
 else:
-    tempo_casada = "não se aplica"
-print(f"nome:{nome}")
-print(f"sexo:{sexo}")
-print(f"estado civil:{estado_civil}")
-print(f"tempo de casada:{tempo_casada}")
+    tempo_casada = "Não se aplica"
 
-
-
+print(f"Nome: {nome}")
+print(f"Sexo: {sexo}")
+print(f"Estado Civil: {estado_civil}")
+print(f"Tempo de casada: {tempo_casada}")
